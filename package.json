@@ -1,0 +1,13 @@
+{
+  "name": "course-template-root",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Our course template.",
+  "scripts": {
+    "dev": "pnpm dev",
+    "build": "pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
