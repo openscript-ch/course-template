@@ -22,15 +22,12 @@ importers:
 
   apps/slides:
     dependencies:
+      '@openscript-ch/slidev-theme':
+        specifier: latest
+        version: 0.1.1
       '@slidev/cli':
         specifier: ^0.43.7
         version: 0.43.7(@types/markdown-it@13.0.2)(postcss@8.4.31)
-      '@slidev/theme-default':
-        specifier: latest
-        version: 0.21.2
-      '@slidev/theme-seriph':
-        specifier: latest
-        version: 0.21.3
 
 packages:
 
@@ -852,6 +849,14 @@ packages:
     dev: false
     optional: true
 
+  /@fontsource/fira-code@5.0.13:
+    resolution: {integrity: sha512-OfXFu05YOnBebYK0XPDhb6u8t6/eicj7WE5UYzOTvF8hGexrFvZIVFSBBmTmurtDZdJnvAHAw1beSbDIZSjiaA==}
+    dev: false
+
+  /@fontsource/pt-sans@5.0.8:
+    resolution: {integrity: sha512-YCn2rcHLdQUNcTzrrHpPzzLqMat2s1TUTcBDXIHgHpUNar3jkrZ9U0wNGczu0C0WgFzUFShDtRUl3PehDi9P+g==}
+    dev: false
+
   /@hedgedoc/markdown-it-plugins@2.1.4(markdown-it@13.0.2):
     resolution: {integrity: sha512-lJgHOasTvhPiIsx7o019xnUJ3suANVMkTIVlQ3hWiZTUp7feyxfuaRF98/gm9sl8Bg01JjNb2OIjA8l4bck/hQ==}
     peerDependencies:
@@ -1083,6 +1088,17 @@ packages:
       - supports-color
     dev: false
 
+  /@openscript-ch/slidev-theme@0.1.1:
+    resolution: {integrity: sha512-N6vzL7luzthQT0htFdb11PBWtzpOahozkBcWMXxGvRViW6X/++RFi7BCsewaa02U1PEO9GIDIYFGnnpAQ7WKFw==}
+    engines: {node: '>=20.0.0'}
+    dependencies:
+      '@fontsource/fira-code': 5.0.13
+      '@fontsource/pt-sans': 5.0.8
+      '@slidev/types': 0.43.7
+      codemirror-theme-vars: 0.1.2
+      prism-theme-vars: 0.2.4
+    dev: false
+
   /@pagefind/darwin-arm64@1.0.3:
     resolution: {integrity: sha512-vsHDtvao3W4iFCxVc4S0BVhpj3E2MAoIVM7RmuQfGp1Ng22nGLRaMP6FguLO8TMabRJdvp4SVr227hL4WGKOHA==}
     cpu: [arm64]
@@ -1297,31 +1313,6 @@ packages:
     dependencies:
       '@slidev/types': 0.43.7
       js-yaml: 4.1.0
-    dev: false
-
-  /@slidev/theme-default@0.21.2:
-    resolution: {integrity: sha512-neUucFs2YrRZZd73QwvLTyRG/o1nerDFUR5t8YAmXVLTMzWfY71flQ6aAhjYf+WjsozYsOHcxi/pZtIzZ4VhTQ==}
-    engines: {node: '>=14.0.0', slidev: '>=0.19.2'}
-    dependencies:
-      '@slidev/types': 0.22.7
-      codemirror-theme-vars: 0.1.2
-      prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
-    dev: false
-
-  /@slidev/theme-seriph@0.21.3:
-    resolution: {integrity: sha512-cLya6O4hmcLHUhloCMPPoKMLX27Q+8M8pRS82BSsLXVeXTXrlpc3l3glx5VB738p+NQr7FgqFN6H2CXQRoVv9Q==}
-    engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
-    dependencies:
-      '@slidev/types': 0.22.7
-      codemirror-theme-vars: 0.1.2
-      prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
-    dev: false
-
-  /@slidev/types@0.22.7:
-    resolution: {integrity: sha512-mCVKQbcGTv6d6n9aHpYNp5U04HF+FMbpY083vqpJ6Folc805BB1Am02eubaW0J6nM+dSOu2dDgPY+kIjs75sAQ==}
-    engines: {node: '>=14.0.0'}
     dev: false
 
   /@slidev/types@0.43.7:
@@ -6251,11 +6242,6 @@ packages:
       yallist: 4.0.0
     dev: false
     optional: true
-
-  /theme-vitesse@0.1.14:
-    resolution: {integrity: sha512-b5s+Zpfaw5+djoCJ9AEbcTbpiTlLsOvGM9oblDmmWRGWNqg9oXtEYO/uwubwx77novHBI6zNuwZRHKNlAIBo4A==}
-    engines: {vscode: ^1.43.0}
-    dev: false
 
   /titleize@3.0.0:
     resolution: {integrity: sha512-KxVu8EYHDPBdUYdKZdKtU2aj2XfEx9AfjXxE/Aj0vT06w2icA09Vus1rh6eSu1y01akYg6BjIK/hxyLJINoMLQ==}

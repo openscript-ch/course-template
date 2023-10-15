@@ -22,8 +22,8 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
-			base: '/docs',
-			outDir: '../../dist/docs'
 		}),
 	],
+	base: '/docs/',
+	outDir: '../../dist/docs'
 });

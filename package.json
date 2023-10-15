@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "description": "Our course template.",
   "scripts": {
-    "dev": "pnpm dev",
-    "build": "pnpm build"
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "postbuild": "cp -r public/* dist"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@8.7.5"
 }
