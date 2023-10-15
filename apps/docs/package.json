@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build --base $BASE_PATH/docs/",
     "preview": "astro preview",
     "astro": "astro"
   },

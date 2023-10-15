@@ -24,6 +24,5 @@ export default defineConfig({
 			],
 		}),
 	],
-	base: '/docs/',
 	outDir: '../../dist/docs'
 });
