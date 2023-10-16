@@ -11,8 +11,8 @@ importers:
   apps/docs:
     dependencies:
       '@openscript-ch/astro-course-theme':
-        specifier: ^0.11.0
-        version: 0.11.0(astro@3.3.0)
+        specifier: ^0.12.0
+        version: 0.12.0(astro@3.3.0)
       astro:
         specifier: ^3.2.3
         version: 3.3.0
@@ -1063,8 +1063,8 @@ packages:
     dev: false
     optional: true
 
-  /@openscript-ch/astro-course-theme@0.11.0(astro@3.3.0):
-    resolution: {integrity: sha512-m5qCoeyJx6o78ODKV7Ls22IPRJhYrtXdnAr7flI8w6YEidD+4cV+31SALmiCdo91WPbh6HtlxH8dF5hrGwRosA==}
+  /@openscript-ch/astro-course-theme@0.12.0(astro@3.3.0):
+    resolution: {integrity: sha512-BSEEvMK7biKJWDBTivnxPjXuCuNXTD1nKjbTEMktG3Eu4vPJpJ9aSPHZJGdNUte4yH0PurDXe7CXI5pI8f0ZXg==}
     peerDependencies:
       astro: ^3.2.0
     dependencies:
@@ -3731,7 +3731,7 @@ packages:
       mdast-util-mdxjs-esm: 1.3.1
       property-information: 6.3.0
       space-separated-tokens: 2.0.2
-      style-to-object: 0.4.3
+      style-to-object: 0.4.4
       unist-util-position: 4.0.4
       zwitch: 2.0.4
     transitivePeerDependencies:
@@ -6158,8 +6158,8 @@ packages:
     dev: false
     optional: true
 
-  /style-to-object@0.4.3:
-    resolution: {integrity: sha512-RP9icVx0g3Pt0CyNiC2qvBkqMTHD5uBVC2XYcSr/ag8QWKApx/oXEh2ehMGSyzkjK0+ySkukMuO+mz+DNQq57Q==}
+  /style-to-object@0.4.4:
+    resolution: {integrity: sha512-HYNoHZa2GorYNyqiCaBgsxvcJIn7OHq6inEga+E6Ke3m5JkoqpQbnFssk4jwe+K7AhGa2fcha4wSOf1Kn01dMg==}
     dependencies:
       inline-style-parser: 0.1.1
     dev: false
