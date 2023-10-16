@@ -23,8 +23,8 @@ importers:
   apps/slides:
     dependencies:
       '@openscript-ch/slidev-theme':
-        specifier: latest
-        version: 0.1.1
+        specifier: ^0.2.0
+        version: 0.2.0
       '@slidev/cli':
         specifier: ^0.43.7
         version: 0.43.7(@types/markdown-it@13.0.2)(postcss@8.4.31)
@@ -1088,8 +1088,8 @@ packages:
       - supports-color
     dev: false
 
-  /@openscript-ch/slidev-theme@0.1.1:
-    resolution: {integrity: sha512-N6vzL7luzthQT0htFdb11PBWtzpOahozkBcWMXxGvRViW6X/++RFi7BCsewaa02U1PEO9GIDIYFGnnpAQ7WKFw==}
+  /@openscript-ch/slidev-theme@0.2.0:
+    resolution: {integrity: sha512-vRWU5CFdKe6P7CwcRA1lv+7HtCSrRmFFcXRV3ujaWmvdEhO2Na1cnqoP3IPq3Pjt053nHhyEjrWDHfKxcTk6uw==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@fontsource/fira-code': 5.0.13
@@ -3231,6 +3231,7 @@ packages:
   /escape-string-regexp@5.0.0:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
+    requiresBuild: true
     dev: false
 
   /esprima@4.0.1:
@@ -3278,6 +3279,7 @@ packages:
 
   /estree-walker@3.0.3:
     resolution: {integrity: sha512-7RUKfXgSMMkzt6ZuXmqapOurLGPPfgj6l9uRZ7lRGolvk0y2yocc35LdcxKC5PQZdn2DMqioAQ2NoWcrTKmm6g==}
+    requiresBuild: true
     dependencies:
       '@types/estree': 1.0.2
     dev: false
@@ -3937,6 +3939,7 @@ packages:
 
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
+    requiresBuild: true
     dev: false
 
   /ini@1.3.8:
@@ -4295,6 +4298,7 @@ packages:
   /lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
+    requiresBuild: true
     dependencies:
       yallist: 4.0.0
     dev: false
@@ -5902,6 +5906,7 @@ packages:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
     hasBin: true
+    requiresBuild: true
     dependencies:
       lru-cache: 6.0.0
     dev: false
@@ -6987,6 +6992,7 @@ packages:
 
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    requiresBuild: true
     dev: false
 
   /yargs-parser@20.2.9:

@@ -8,7 +8,7 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.43.7",
-    "@openscript-ch/slidev-theme": "latest"
+    "@openscript-ch/slidev-theme": "^0.2.0",
+    "@slidev/cli": "^0.43.7"
   }
 }
