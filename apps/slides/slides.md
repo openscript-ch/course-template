@@ -1,5 +1,10 @@
 ---
 theme: "@openscript-ch/slidev-theme"
+title: "New course"
+colorSchema: light
+lineNumbers: true
+routerMode: 'hash'
+layout: cover
 ---
 
 # Welcome to Slidev
