@@ -23,8 +23,8 @@ importers:
   apps/slides:
     dependencies:
       '@openscript-ch/slidev-theme':
-        specifier: ^0.2.1
-        version: 0.2.1
+        specifier: ^0.3.0
+        version: 0.3.0
       '@slidev/cli':
         specifier: ^0.43.7
         version: 0.43.7(@types/markdown-it@13.0.4)(postcss@8.4.31)
@@ -1095,8 +1095,8 @@ packages:
       - supports-color
     dev: false
 
-  /@openscript-ch/slidev-theme@0.2.1:
-    resolution: {integrity: sha512-8aWQxUSzopRhUv5bZY2PxM/H1m+hLhdNl5vUjkqnD5B75AHhjDuiSjjoU5BY2tiblRAWtlmTyljDb2hcxDwRiQ==}
+  /@openscript-ch/slidev-theme@0.3.0:
+    resolution: {integrity: sha512-IQZ0eVcoiz86Dq87HSMpUbjKHSdjNmc4P71MJ4Zd+tGz7+2m5qxwUT2rXw/ncK8wOj5ZrS96k6PuiKl7/RBdmw==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@fontsource/fira-code': 5.0.14
