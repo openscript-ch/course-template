@@ -6,6 +6,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'New course',
+			locales: {
+				root: {
+					label: 'Deutsch',
+					lang: 'de'
+				}
+			},
 			social: {
 				github: 'https://github.com/openscript-ch/astro-course-theme',
 			},
