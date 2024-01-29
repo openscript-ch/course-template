@@ -23,8 +23,8 @@ importers:
   apps/slides:
     dependencies:
       '@openscript-ch/slidev-theme':
-        specifier: ^0.6.0
-        version: 0.6.4(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.4)
+        specifier: ^0.7.0
+        version: 0.7.1(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.4)
       '@slidev/cli':
         specifier: ^0.46.1
         version: 0.46.1(@types/markdown-it@13.0.7)(postcss@8.4.32)(sass@1.69.7)(typescript@5.3.3)
@@ -1174,8 +1174,8 @@ packages:
       - supports-color
     dev: false
 
-  /@openscript-ch/slidev-theme@0.6.4(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.4):
-    resolution: {integrity: sha512-P+pSyzoBiqP1rJhbQGUG07UAtR7MDE3UKIzLQbfN52MXESpiy75n5Yuu++CX1omFyXg4rJq4xWsAC8JuiVYqFg==}
+  /@openscript-ch/slidev-theme@0.7.1(qrcode@1.5.3)(sass@1.69.7)(vue@3.4.4):
+    resolution: {integrity: sha512-cRljZD3d8xk3UPiqL2CU3GIvOE4WTIrfWJgarrkBVNn/2Zycm0mVKnKZQXbG7HZThKrXne1JFiMqwaMGbogS1A==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       sass: ^1.69.4
@@ -1183,7 +1183,7 @@ packages:
       '@chenfengyuan/vue-qrcode': 2.0.0(qrcode@1.5.3)(vue@3.4.4)
       '@fontsource/fira-code': 5.0.16
       '@fontsource/pt-sans': 5.0.8
-      '@slidev/types': 0.46.1
+      '@slidev/types': 0.46.3
       codemirror-theme-vars: 0.1.2
       prism-theme-vars: 0.2.4
       sass: 1.69.7
@@ -1535,6 +1535,11 @@ packages:
 
   /@slidev/types@0.46.1:
     resolution: {integrity: sha512-gKytd8wnXWAIH50Ls7i1An0JflNWAMI1y4o2MQBBsOcwxV/GwWPJZUAp/lDzrFxcwnGGEnC7A3v9xz5zGoV6OA==}
+    engines: {node: '>=18.0.0'}
+    dev: false
+
+  /@slidev/types@0.46.3:
+    resolution: {integrity: sha512-jTrKLvYaZLf+XzKEk5PSgyRd95eurW1j3WzZx+1H0SKkpqrwGhWqaoo8edZHmCIXjOGFrBx40Yu4/c+1EYdMdQ==}
     engines: {node: '>=18.0.0'}
     dev: false
 
