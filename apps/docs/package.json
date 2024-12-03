@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@openscript-ch/astro-course-theme": "^0.14.0",
-    "astro": "^4.5.12",
+    "astro": "^5.0.0",
     "sharp": "^0.33.3"
   }
 }
