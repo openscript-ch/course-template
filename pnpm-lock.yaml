@@ -19,7 +19,7 @@ importers:
         version: 0.34.2
       starlight-theme-openscript:
         specifier: ^0.1.8
-        version: 0.1.8(@astrojs/starlight@0.34.3(astro@5.9.2(@types/node@24.0.0)(rollup@4.43.0)(typescript@5.8.3)))
+        version: 0.1.10(@astrojs/starlight@0.34.3(astro@5.9.2(@types/node@24.0.0)(rollup@4.43.0)(typescript@5.8.3)))
     devDependencies:
       '@changesets/cli':
         specifier: ^2.29.4
@@ -1932,8 +1932,8 @@ packages:
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
-  starlight-theme-openscript@0.1.8:
-    resolution: {integrity: sha512-hmZTGUwx66rsUpv303JZGQ7+FPT1rCj75EJPP1+zb7QzrjgTo6Bpw2UYwKeoHkGXL4wo1IdWb1LA5ZxoETSTuQ==}
+  starlight-theme-openscript@0.1.10:
+    resolution: {integrity: sha512-tAB1n0uYbVmzjoLJ/0Vqp70EGklIhkab+zED/oJR6qV+iNP/PdQ1xLYcKPf7c7Emxf6+SCjkQLZacv4+s9SB9Q==}
     engines: {node: '>=22'}
     peerDependencies:
       '@astrojs/starlight': '>=0.34.0'
@@ -4800,7 +4800,7 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-theme-openscript@0.1.8(@astrojs/starlight@0.34.3(astro@5.9.2(@types/node@24.0.0)(rollup@4.43.0)(typescript@5.8.3))):
+  starlight-theme-openscript@0.1.10(@astrojs/starlight@0.34.3(astro@5.9.2(@types/node@24.0.0)(rollup@4.43.0)(typescript@5.8.3))):
     dependencies:
       '@astrojs/starlight': 0.34.3(astro@5.9.2(@types/node@24.0.0)(rollup@4.43.0)(typescript@5.8.3))
       '@types/reveal.js': 5.2.0
