@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --host",
+    "start": "astro dev",
+    "build": "astro build --outDir ../../dist --base $BASE_PATH",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.34.3",
+    "astro": "^5.9.2",
+    "sharp": "^0.34.2",
+    "starlight-theme-openscript": "^0.1.8"
+  },
+  "packageManager": "pnpm@10.12.1"
+}

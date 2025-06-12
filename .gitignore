@@ -19,4 +19,9 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+*.local
+.vite-inspect
+.remote-assets
+components.d.ts
 .pnpm-store
