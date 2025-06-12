@@ -1,6 +1,6 @@
 {
   "name": "course-template",
-  "version": "1.0.0",
+  "private": true,
   "description": "Our course template.",
   "scripts": {
     "dev": "pnpm -r dev",
