@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.34.3",
-    "astro": "^5.9.2",
-    "sharp": "^0.34.2",
-    "starlight-theme-openscript": "^0.1.8"
+    "@astrojs/starlight": "^0.37.1",
+    "@openscript-ch/starlight-theme": "^0.1.32",
+    "astro": "^5.16.5",
+    "sharp": "^0.34.5"
   },
-  "packageManager": "pnpm@10.12.1"
+  "packageManager": "pnpm@10.25.0"
 }

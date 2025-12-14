@@ -1,6 +1,6 @@
 {
   "name": "course-template",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:24-bookworm",
   "containerEnv": {
     "ASTRO_TELEMETRY_DISABLED": "1"
   },

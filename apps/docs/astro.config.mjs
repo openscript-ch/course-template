@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightThemeOpenscript from 'starlight-theme-openscript'
+import openscriptTheme from '@openscript-ch/starlight-theme';
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,7 +14,7 @@ export default defineConfig({
           lang: 'de', // lang is required for root locales
         },
       },
-      plugins: [starlightThemeOpenscript()],
+      plugins: [openscriptTheme()],
       title: '[Company] [Coursename]',
       logo: {
         src: './src/assets/logo.svg',
