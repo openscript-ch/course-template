@@ -15,5 +15,5 @@
     "astro": "^5.16.5",
     "sharp": "^0.34.5"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
